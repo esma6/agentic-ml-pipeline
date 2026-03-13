@@ -1,0 +1,11 @@
+{
+  "dataset_name": "ionosphere",
+  "task_type": "classification",
+  "n_rows": 351,
+  "n_features": 34,
+  "missing_ratio": 0.0,
+  "categorical_ratio": 0.0,
+  "class_imbalance": 0.359,
+  "feature_variance": 0.2725,
+  "n_classes": 2
+}

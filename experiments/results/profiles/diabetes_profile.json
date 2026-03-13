@@ -1,0 +1,11 @@
+{
+  "dataset_name": "diabetes",
+  "task_type": "classification",
+  "n_rows": 768,
+  "n_features": 8,
+  "missing_ratio": 0.0,
+  "categorical_ratio": 0.0,
+  "class_imbalance": 0.349,
+  "feature_variance": 1893.0595,
+  "n_classes": 2
+}

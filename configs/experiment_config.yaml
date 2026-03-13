@@ -60,3 +60,9 @@ datasets:
     target_col: label
     task_type: classification
     eval_strategy: cv5
+
+  - name: covtype
+    path: data/raw/covtype.csv
+    target_col: cover_type
+    task_type: classification
+    eval_strategy: single_split

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "synthetic_100K",
+  "task_type": "classification",
+  "n_rows": 100000,
+  "n_features": 20,
+  "missing_ratio": 0.0241,
+  "categorical_ratio": 0.2,
+  "class_imbalance": 0.4988,
+  "feature_variance": 0.9999,
+  "n_classes": 2
+}

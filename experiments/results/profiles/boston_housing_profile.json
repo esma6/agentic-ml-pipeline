@@ -1,0 +1,11 @@
+{
+  "dataset_name": "boston_housing",
+  "task_type": "regression",
+  "n_rows": 506,
+  "n_features": 13,
+  "missing_ratio": 0.0,
+  "categorical_ratio": 0.0,
+  "class_imbalance": null,
+  "feature_variance": 2948.7201,
+  "n_classes": null
+}

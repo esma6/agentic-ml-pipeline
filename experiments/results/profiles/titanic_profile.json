@@ -1,0 +1,11 @@
+{
+  "dataset_name": "titanic",
+  "task_type": "classification",
+  "n_rows": 891,
+  "n_features": 7,
+  "missing_ratio": 0.0287,
+  "categorical_ratio": 0.2857,
+  "class_imbalance": 0.3838,
+  "feature_variance": 536.6042,
+  "n_classes": 2
+}

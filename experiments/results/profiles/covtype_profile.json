@@ -1,0 +1,11 @@
+{
+  "dataset_name": "covtype",
+  "task_type": "classification",
+  "n_rows": 581012,
+  "n_features": 54,
+  "missing_ratio": 0.0,
+  "categorical_ratio": 0.0,
+  "class_imbalance": 0.0047,
+  "feature_variance": 80127.5992,
+  "n_classes": 7
+}

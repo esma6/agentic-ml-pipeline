@@ -1,0 +1,13 @@
+{
+  "dataset_name": "breast_cancer",
+  "task_type": "classification",
+  "n_rows": 569,
+  "n_features": 30,
+  "missing_ratio": 0.0,
+  "categorical_ratio": 0.0,
+  "class_imbalance": 0.3726,
+  "feature_variance": 15063.2185,
+  "n_classes": 2,
+  "timestamp": "2026-03-13T09:56:42.381044Z",
+  "spark_version": "4.1.1"
+}

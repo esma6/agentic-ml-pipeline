@@ -1,0 +1,13 @@
+{
+  "dataset_name": "adult_income",
+  "task_type": "classification",
+  "n_rows": 30162,
+  "n_features": 14,
+  "missing_ratio": 0.0,
+  "categorical_ratio": 0.5714,
+  "class_imbalance": 0.2489,
+  "feature_variance": 1869594690.1582,
+  "n_classes": 2,
+  "timestamp": "2026-03-13T09:56:35.174997Z",
+  "spark_version": "4.1.1"
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "wine_quality",
+  "task_type": "regression",
+  "n_rows": 1599,
+  "n_features": 11,
+  "missing_ratio": 0.0,
+  "categorical_ratio": 0.0,
+  "class_imbalance": null,
+  "feature_variance": 108.8906,
+  "n_classes": null,
+  "timestamp": "2026-03-13T09:56:50.074483Z",
+  "spark_version": "4.1.1"
+}

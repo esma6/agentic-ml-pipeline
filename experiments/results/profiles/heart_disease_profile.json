@@ -1,0 +1,13 @@
+{
+  "dataset_name": "heart_disease",
+  "task_type": "classification",
+  "n_rows": 297,
+  "n_features": 13,
+  "missing_ratio": 0.0,
+  "categorical_ratio": 0.0,
+  "class_imbalance": 0.4613,
+  "feature_variance": 279.7189,
+  "n_classes": 2,
+  "timestamp": "2026-03-13T09:56:46.598798Z",
+  "spark_version": "4.1.1"
+}
