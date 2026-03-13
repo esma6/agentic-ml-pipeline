@@ -1,0 +1,62 @@
+agent:
+  provider: groq
+  model: llama-3.1-8b-instant
+  temperature: 0.0
+
+split:
+  test_size: 0.20
+  random_seed: 42
+
+output:
+  results_csv:  experiments/results/results.csv
+  profiles_dir: experiments/results/profiles
+  agent_log:    experiments/results/agent_log.jsonl
+
+datasets:
+  - name: adult_income
+    path: data/raw/adult_income.csv
+    target_col: income
+    task_type: classification
+    eval_strategy: single_split
+
+  - name: breast_cancer
+    path: data/raw/breast_cancer.csv
+    target_col: diagnosis
+    task_type: classification
+    eval_strategy: cv5
+
+  - name: heart_disease
+    path: data/raw/heart_disease.csv
+    target_col: target
+    task_type: classification
+    eval_strategy: cv5
+
+  - name: wine_quality
+    path: data/raw/wine_quality.csv
+    target_col: quality
+    task_type: regression
+    eval_strategy: single_split
+
+  - name: diabetes
+    path: data/raw/diabetes.csv
+    target_col: Outcome
+    task_type: classification
+    eval_strategy: cv5
+
+  - name: titanic
+    path: data/raw/titanic.csv
+    target_col: Survived
+    task_type: classification
+    eval_strategy: cv5
+
+  - name: boston_housing
+    path: data/raw/boston_housing.csv
+    target_col: medv
+    task_type: regression
+    eval_strategy: single_split
+
+  - name: ionosphere
+    path: data/raw/ionosphere.csv
+    target_col: label
+    task_type: classification
+    eval_strategy: cv5

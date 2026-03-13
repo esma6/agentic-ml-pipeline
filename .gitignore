@@ -1,0 +1,10 @@
+venv/
+data/raw/
+experiments/results/
+__pycache__/
+*.pyc
+*.jsonl
+.env
+*.egg-info/
+.idea/
+.vscode/
