@@ -107,12 +107,4 @@ will add duplicate rows. If you need a clean run, delete results.csv first.
 
 ---
 
-## Reproducibility Checklist
 
-Before submitting the paper:
-- [ ] Record exact OpenAI model version string from agent_log.jsonl
-- [ ] Record API call date for all experiments
-- [ ] Verify temperature=0.0 in all log entries
-- [ ] Confirm all profiles/*.json are committed to the repo
-- [ ] Run analysis 3x on same results.csv — confirm identical tables
-- [ ] Publish agent_log.jsonl as supplementary material
